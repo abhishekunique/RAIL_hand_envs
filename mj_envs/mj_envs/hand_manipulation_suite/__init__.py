@@ -19,11 +19,11 @@ from mj_envs.hand_manipulation_suite.hammer_v0 import HammerEnvV0
 
 # Reposition a pen in hand
 register(
-    id='pen-v0',
-    entry_point='mj_envs.hand_manipulation_suite:PenEnvV0',
+    id='remote-v0',
+    entry_point='mj_envs.hand_manipulation_suite:RemoteEnvV0',
     max_episode_steps=100,
 )
-from mj_envs.hand_manipulation_suite.pen_v0 import PenEnvV0
+from mj_envs.hand_manipulation_suite.remote_v0 import RemoteEnvV0
 
 # Relcoate an object to the target
 register(

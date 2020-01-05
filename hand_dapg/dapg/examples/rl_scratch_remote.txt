@@ -2,7 +2,7 @@
 
 # general inputs
 
-'env'           :   'pen-v0',
+'env'           :   'remote-v0',
 'algorithm'     :   'NPG',
 'seed'          :   123,
 'num_cpu'       :   5,
